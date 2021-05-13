@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="DetailProduct Suite">
+    <test name="Dollar Test">
+        <groups>
+            <run>
+                <include name="Dollar"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.DetailProductTest"></class>
+        </classes>
+    </test>
+    <test name="Euro Test">
+        <groups>
+            <run>
+                <include name="Euro"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.DetailProductTest"></class>
+        </classes>
+    </test>
+    <test name="Pound Sterling Test">
+        <groups>
+            <run>
+                <include name="Pound Sterling"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Tests.DetailProductTest"></class>
+        </classes>
+    </test>
+</suite>
